@@ -461,7 +461,7 @@
                             <div class="advice-icon-box">${advice.rainIcon}</div>
                             <div class="advice-content">
                                 <div class="advice-text">${advice.rainText}</div>
-                                <div class="advice-sub">降雨率 ${current.rain}%</div>
+                                <div class="advice-sub">降雨率 ${current.rain}</div>
                             </div>
                         </div>
                         <div class="advice-item">
@@ -495,9 +495,9 @@
                     <div class="mini-card">
                         <div class="mini-time">${dayLabel}</div>
                         <div class="mini-icon">${getWeatherIcon(f.weather)}</div>
-                        <div class="mini-temp">${Math.round((parseInt(f.maxTemp)+parseInt(f.minTemp))/2)}°</div>
+                        <div class="mini-temp">${Math.round((parseInt(f.maxTemp)+parseInt(f.minTemp))/2)}</div>
                         <div class="mini-rain">
-                            <span>💧</span><span>${f.rain}%</span>
+                            <span>💧</span><span>${f.rain}</span>
                         </div>
                     </div>
                 `;
